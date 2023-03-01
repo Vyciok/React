@@ -52,7 +52,7 @@ const deleteTask = (id) =>{
 let tasks_list = tasks.map((el) =>{
     return(
         <Task
-        key={uuidv4}
+        key={uuidv4()}
         id={el.id}
         text={el.task}
         status={el.status}
