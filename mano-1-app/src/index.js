@@ -5,7 +5,6 @@ import App2 from './App2';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navv from './Navv';
-import Main1 from './Main1';
 
 
 
