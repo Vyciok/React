@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRegCircle, FaRegCheckCircle } from "react-icons/fa";
-export default function Task(props){
+export default function Taskform(props){
     const{id, text, status, changeStatus, deleteTask} = props;
 
     let div_status_class = status ? "table-success" : "table-warning";
@@ -32,4 +32,5 @@ export default function Task(props){
             </td>
         </tr>
     );
+
 }

@@ -1,32 +1,19 @@
-import './App.css';
-import Main2 from './Main2';
+import React from "react";
+import Praktika3 from "./praktika 3/Praktika3";
+import Praktika6 from "./praktika 6/Praktika6";
+import Praktika7 from "./praktika 7/Praktika7"
+import Praktikaform from "./pratika form/Praktikaform";
 
-function App() {
-  let posts = [
-    // {
-    //   title : "Pavadinamas1",
-    //   content : "lorem pavadinimas2",
-    //   img : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Western_Han_Iron_Sword.jpg/1280px-Western_Han_Iron_Sword.jpg"
-    // },
-    // {
-    //   title : "Pavadinamas2",
-    //   content : "lorem pavadinimas2",
-    //   img : "https://wallpapercave.com/dwp2x/wp2846682.jpg"
-    // },
-    {
-      title : "Roblox",   
-      content : "lorem pavadinimas1",
-      img : "https://wallpapercave.com/dwp2x/wp1815425.jpg"
-    },
-  ];
-
-  let list = posts.map((post) => {
+function App2() {
     return (
-      <Main2 title={post.title} content={post.content} img={post.img} />
+
+      <div>
+        <Praktikaform/>
+      </div>
+      
+      
     );
-  });
-
-  return <div>{list}</div>
-}
-
-export default App;
+  }
+  
+  export default App2;
+  

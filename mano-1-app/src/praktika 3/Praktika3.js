@@ -35,7 +35,7 @@ const [tasks,setTasks] = useState([
 const changeStatus = (id) => {
     let data_copy = [...tasks];
     data_copy.forEach((task) => {
-        if(task.id == id) {
+        if(task.id === id) {
             task.status = true;
             return;
         }
