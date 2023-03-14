@@ -4,7 +4,7 @@ import Task from "./Task7";
 
 const url='https://api.github.com/users';
 
-export default function Praktika6(){
+export default function Praktika7(){
 
 const [tasks,setTasks] = useState([]);
 

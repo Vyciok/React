@@ -9,7 +9,7 @@ export default function Task(props){
     : "btn btn-primary";
     
     return(
-        <div className="col-lg-4 text-center">
+        <div className="col-lg-4 text-center shadow-sm text-bg-dark">
          <img className="bd-placeholder-img rounded-circle" src={img} alt="Girl in a jacket" width="140" height="140"/> 
 
         <h2>{text}</h2>
