@@ -1,12 +1,6 @@
 import React from "react";
 export default function Task(props){
-    const{id, img,  text, status} = props;
-        // console.log(id);
-
-    let div_status_class = status ? "table-success" : "table-warning";
-    let del_btn_status_class = status
-    ? "btn btn-success disabled"
-    : "btn btn-primary";
+    const{img, text} = props;
     
     return(
         <div className="col-lg-4 text-center shadow-sm text-bg-dark">

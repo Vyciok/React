@@ -5,7 +5,7 @@ import Praktikaform from './pratika form/Praktikaform';
 import Praktika6 from './praktika 6/Praktika6';
 import Praktika7 from './praktika 7/Praktika7';
 import Praktika33 from "./praktika 33/Praktika33";
-
+import Postfb from "./praktika 1/Postfb";
 
 function App() {
     return (  
@@ -30,6 +30,9 @@ function App() {
             <li class="nav-item">
               <Link class="nav-link" to="/Praktika33">Pricing</Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/Postfb">List</Link>
+            </li>
           </ul>
         </div>
       </div>
@@ -41,6 +44,7 @@ function App() {
         <Route path="/Praktika6" element={<Praktika6/>}/>
         <Route path="/Praktika7" element={<Praktika7/>}/>
         <Route path="/Praktika33" element={<Praktika33/>}/>
+        <Route path="/Postfb" element={<Postfb/>}/>
       </Routes>
       </>  
     );

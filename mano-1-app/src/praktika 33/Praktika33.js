@@ -5,8 +5,7 @@ function Praktika33(){
          pilnasTextas(!tektas);
 }
 return (
-    <div className="container">
-        <div className="row "> 
+        <div className="row ">
             <div className="col">
                 <div className="card shadow-sm">
                     <div className="card-body">
@@ -16,7 +15,6 @@ return (
                 </div>
             </div>
         </div>
-    </div>
     );
 }
 

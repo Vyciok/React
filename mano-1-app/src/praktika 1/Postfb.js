@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
-import Task from "./Task7";
+import PostList from "./Postlistt";
+
 
 const url='https://api.github.com/users';
 
-export default function Praktika7(){
+export default function Postfb(){
 
 const [tasks,setTasks] = useState([]);
 
@@ -18,16 +19,9 @@ useEffect(() => {
     getTodos();
 }, []);
 
-
-
-
-
-
-
-
 let tasks_list = tasks.map((el) =>{
     return(
-        <Task
+        <PostList
         key={uuidv4()}
         id={el.id}
         text={el.login}
